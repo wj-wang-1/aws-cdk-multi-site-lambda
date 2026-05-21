@@ -1,0 +1,13 @@
+# CDK 合成产物
+cdk.out/
+
+# Python 虚拟环境
+.venv/
+__pycache__/
+*.py[cod]
+
+# CDK 自动生成的 context 缓存
+cdk.context.json
+
+# macOS
+.DS_Store

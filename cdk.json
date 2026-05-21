@@ -1,0 +1,12 @@
+{
+  "app": "python3 app.py",
+  "context": {
+    "@aws-cdk/aws-apigateway:usagePlanKeyOrderInsensitiveId": true,
+    "@aws-cdk/core:stackRelativeExports": true,
+
+    "domain_name": "example.com",
+    "hosted_zone_id": "Z0EXAMPLE1HOSTED",
+    "custom_domain_target": "d-xxxxxxxxxx.execute-api.us-west-2.amazonaws.com",
+    "custom_domain_hosted_zone_id": "Z0EXAMPLE2APIGW"
+  }
+}
